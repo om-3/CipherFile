@@ -260,17 +260,6 @@ If you'd like to improve CipherFile:
 5. Open a Pull Request
 
 ---
-
-## 📈 GitHub Analytics
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=om-3&show_icons=true&theme=tokyonight"/>
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=om-3&theme=tokyonight"/>
-
-</div>
-
 ---
 
 ## 👨‍💻 Author
