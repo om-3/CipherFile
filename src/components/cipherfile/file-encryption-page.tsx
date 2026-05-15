@@ -324,18 +324,22 @@ export function FileEncryptionPage() {
 
       case 'decrypted':
         return (
-            <div className="text-center space-y-4">
-                <File className="mx-auto h-12 w-12 text-accent" />
-                <h3 className="text-xl font-semibold">Decryption Successful</h3>
-                <p className="text-muted-foreground">Your file has been decrypted.</p>
-                <Card className="text-left max-h-48 overflow-auto">
-                    <CardContent className="p-4">
-                        <pre className="text-sm whitespace-pre-wrap">{decryptedText ?? 'No preview available.'}</pre>
-                    </CardContent>
-                </Card>
-                <Button onClick={handleDownload} className="w-full"><Download className="mr-2"/> Download Decrypted File</Button>
-            </div>
+          <div className="text-center space-y-4">
+            <File className="mx-auto h-12 w-12 text-accent" />
+            <h3 className="text-xl font-semibold">Decryption Successful</h3>
+            <p className="text-muted-foreground">Your file has been decrypted.</p>
+            <Card className="text-left max-h-48 overflow-auto">
+              <CardContent className="p-4">
+                <pre className="text-sm whitespace-pre-wrap">{decryptedText ?? 'No preview available.'}</pre>
+              </CardContent>
+            </Card>
+            <Button onClick={handleDownload} className="w-full">
+              <Download className="mr-2" /> Download Decrypted File
+            </Button>
+          </div>
         );
+      default:
+        return null;
     }
   };
 
@@ -362,19 +366,60 @@ export function FileEncryptionPage() {
                 {stage === 'decrypted' && 'Your Decrypted File'}
               </CardTitle>
               <CardDescription className="text-center h-9">
-                 {stage === 'upload' && 'Start by selecting a file from your device.'}
-                 {stage !== 'upload' && (
-                    <div className="flex justify-center items-center gap-4">
-                        <Button variant="link" onClick={goBack} disabled={isProcessing}><ArrowLeft className="mr-2"/> Back</Button>
-                        <Button variant="link" onClick={reset} disabled={isProcessing}>Start Over</Button>
-                    </div>
-                 )}
+                {stage === 'upload' && 'Start by selecting a file from your device.'}
+                {stage !== 'upload' && (
+                  <div className="flex justify-center items-center gap-4">
+                    <Button variant="link" onClick={goBack} disabled={isProcessing}>
+                      <ArrowLeft className="mr-2" /> Back
+                    </Button>
+                    <Button variant="link" onClick={reset} disabled={isProcessing}>
+                      Start Over
+                    </Button>
+                  </div>
+                )}
               </CardDescription>
             </CardHeader>
             <CardContent className="min-h-[250px] flex items-center justify-center">
               {renderContent()}
             </CardContent>
           </Card>
+
+          {/* Premium Footer */}
+          <footer className="mt-10 border-t border-white/10 pt-6 pb-4">
+            <div className="flex flex-col items-center text-center">
+              <h3 className="text-sm text-muted-foreground">
+                Developed by
+                <span className="text-cyan-400 font-semibold ml-1">OM YERPUDE</span>
+              </h3>
+              <div className="flex items-center gap-3 mt-4 flex-wrap justify-center">
+                <a
+                  href="https://github.com/om-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20 transition text-cyan-400 text-sm"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.instagram.com/_om_3.y"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-full bg-pink-500/10 border border-pink-500/20 hover:bg-pink-500/20 transition text-pink-400 text-sm"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="mailto:omyerpude2005@gmail.com"
+                  className="px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 hover:bg-green-500/20 transition text-green-400 text-sm"
+                >
+                  Email
+                </a>
+              </div>
+              <p className="text-xs text-muted-foreground mt-5 opacity-60">
+                © 2026 CipherFile
+              </p>
+            </div>
+          </footer>
         </div>
       </main>
     </div>
