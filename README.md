@@ -240,7 +240,6 @@ http://localhost:3000
 - [ ] Multi-file encryption
 - [ ] Password-based encryption
 - [ ] Cloud backup integration
-- [ ] Drag & Drop upload
 - [ ] Dark/Light theme switcher
 - [ ] Encryption history logs
 - [ ] Mobile responsiveness improvements
@@ -284,6 +283,15 @@ If you'd like to improve CipherFile:
 
 ### ⚡ Secure Your Files Like Never Before ⚡
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5FF,100:7000FF&height=120&section=footer"/>
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" />
+
+### 🔐 Securing Your Digital World with AES-256 Encryption
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=Secure+.+Encrypt+.+Protect;Built+by+OM+YERPUDE;Privacy+First+🔐" />
+
+</div>
+
 
 </div>
