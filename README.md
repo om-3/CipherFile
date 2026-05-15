@@ -234,13 +234,12 @@ http://localhost:3000
 4. Restore original file
 
 ---
-
+  
 ## 🚀 Future Enhancements
 
 - [ ] Multi-file encryption
 - [ ] Password-based encryption
 - [ ] Cloud backup integration
-- [ ] Dark/Light theme switcher
 - [ ] Encryption history logs
 - [ ] Mobile responsiveness improvements
 
