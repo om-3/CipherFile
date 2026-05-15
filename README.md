@@ -1,6 +1,6 @@
 <div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=34&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=CipherFile;AES-256+File+Encryption;Secure+Fast+Privacy+Focused;Protect+Your+Sensitive+Files" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=34&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=🔐+CipherFile;Military+Grade+AES-256+Encryption;Secure+.+Fast+.+Privacy+Focused;Protect+Your+Sensitive+Files" />
 
 <br>
 
