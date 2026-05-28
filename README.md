@@ -9,7 +9,7 @@
 ### ⚡ Advanced Web-Based File Encryption & Decryption Platform
 
 <p align="center">
-Secure • Private • AES-256 • Cyber Security • Modern UI
+Secure • Private • AES-256 • Cyber Security 
 </p>
 
 <p align="center">
@@ -54,9 +54,6 @@ Optimized encryption and decryption process for smooth and fast execution.
 Everything runs locally in your browser.
 
 **No cloud uploads. No tracking. No data storage.**
-
-### 🎨 Futuristic User Interface
-Dark cyber-inspired UI with clean design and seamless user experience.
 
 ### 📂 Multiple File Support
 Encrypt and decrypt important files with ease.
