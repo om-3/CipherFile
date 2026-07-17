@@ -11,7 +11,8 @@
 [![Stars](https://img.shields.io/github/stars/om-3/CipherFile?style=for-the-badge&logo=github&color=00F0FF)](https://github.com/om-3/CipherFile/stargazers)
 [![Forks](https://img.shields.io/github/forks/om-3/CipherFile?style=for-the-badge&logo=github&color=7000FF)](https://github.com/om-3/CipherFile/network/members)
 [![Repo Size](https://img.shields.io/github/repo-size/om-3/CipherFile?style=for-the-badge&color=00FFB3)](https://github.com/om-3/CipherFile)
-[![License](https://img.shields.io/github/license/om-3/CipherFile?style=for-the-badge&color=ff0055)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge&color=ff0055)](LICENSE)
+
 
 <img src="https://komarev.com/ghpvc/?username=om-3&label=PROFILE+VIEWS&color=00F0FF&style=for-the-badge" />
 
